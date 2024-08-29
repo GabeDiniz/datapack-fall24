@@ -1,2 +1,2 @@
 # Runs on /reload
-tellraw @a {"text": "[Datapack] reloaded", "color": "#ff7171"}
+tellraw @a {"text": "[Datapack] UHC reloaded", "color": "#ff7171"}
