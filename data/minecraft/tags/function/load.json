@@ -1,3 +1,3 @@
 {
-  "values": ["uhc:load", "rewards:load"]
+  "values": ["uhc:load", "rewards:load", "tp:load"]
 }
