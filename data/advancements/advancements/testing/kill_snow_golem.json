@@ -38,5 +38,5 @@
         ],
         "experience": 10000
     }, 
-    "parent": "custom_achievements:testing/root"
+    "parent": "advancements:testing/root"
 }
