@@ -1,0 +1,41 @@
+{
+  "display": {
+    "title": {
+      "text": "Feather Fall"
+    },
+    "description": {
+      "text": "Fall from a height of at least 10 blocks and survive."
+    },
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fall_distance": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "absolute": {
+            "min": 10
+          }
+        }
+      }
+    },
+    "damaged": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": 0
+        }
+      }
+    }
+  },
+  "requirements": [["fall_distance", "damaged"]],
+  "rewards": {
+    "function": "rewards:feather_fall_reward"
+  }
+}
