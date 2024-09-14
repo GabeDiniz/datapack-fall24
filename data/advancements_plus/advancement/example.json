@@ -12,8 +12,7 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false,
-    "background": "minecraft:textures/block/netherite_block.png"
+    "hidden": false
   },
   "criteria": {
     "kill_snow_golem": {
@@ -27,8 +26,8 @@
   },
   "requirements": [["kill_snow_golem"]],
   "rewards": {
-    "loot": ["minecraft:entities/skeleton"],
-    "experience": 10000
+    "function": "rewards:reward_trade",
+    "loot": ["minecraft:entities/ghast"]
   },
   "parent": "advancements_plus:root"
 }

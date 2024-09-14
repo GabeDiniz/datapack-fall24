@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "rewards:reward_trade"
+    "function": "advancements_plus:root_reward"
   }
 }

@@ -36,6 +36,7 @@
   },
   "requirements": [["fall_distance", "damaged"]],
   "rewards": {
-    "function": "rewards:feather_fall_reward"
-  }
+    "function": "advancements_plus:feather_fall_reward"
+  },
+  "parent": "advancements_plus:root"
 }
