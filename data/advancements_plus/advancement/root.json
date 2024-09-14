@@ -1,24 +1,32 @@
 {
   "display": {
     "title": {
-      "text": "Root Advancement"
+      "text": "Tree Hugger"
     },
     "description": {
-      "text": "Obtain a Diamond"
+      "text": "Punch a tree to collect your first wood block."
     },
     "icon": {
-      "id": "minecraft:diamond"
+      "id": "minecraft:oak_log"
     },
-    "frame": "goal",
-    "background": "minecraft:textures/block/netherite_block.png",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "main": {
-      "trigger": "minecraft:tick"
+    "get_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:logs"
+          }
+        ]
+      }
     }
   },
-  "requirements": [["main"]]
+  "rewards": {
+    "function": "rewards:reward_trade"
+  }
 }
