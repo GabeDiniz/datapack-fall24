@@ -1,0 +1,31 @@
+{
+  "display": {
+    "title": {
+      "text": "On the Edge"
+    },
+    "description": {
+      "text": "Survive with half a heart for 10 seconds."
+    },
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "survive_low_health": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "nbt": "{Health:1.0f}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "advancements_plus:on_the_edge_reward"
+  }
+}
