@@ -24,17 +24,8 @@
           }
         }
       }
-    },
-    "damaged": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "taken": 0
-        }
-      }
     }
   },
-  "requirements": [["fall_distance", "damaged"]],
   "rewards": {
     "function": "advancements_plus:feather_fall_reward"
   },
