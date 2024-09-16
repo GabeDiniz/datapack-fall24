@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Deep Digger"
+    },
+    "description": {
+      "text": "Reach bedrock"
+    },
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reach_bedrock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "block": {
+          "blocks": ["minecraft:bedrock"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}
