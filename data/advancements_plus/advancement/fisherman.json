@@ -1,0 +1,36 @@
+{
+  "display": {
+    "title": {
+      "text": "The Master Fisherman"
+    },
+    "description": {
+      "text": "Catch a fish in a bucket."
+    },
+    "icon": {
+      "id": "minecraft:tropical_fish_bucket"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "catch_fish": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod_bucket",
+            "minecraft:salmon_bucket",
+            "minecraft:pufferfish_bucket",
+            "minecraft:tropical_fish_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "advancements_plus:fisherman_reward"
+  },
+  "parent": "advancements_plus:root"
+}
