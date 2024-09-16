@@ -29,5 +29,6 @@
   },
   "rewards": {
     "function": "advancements_plus:i_need_an_adult"
-  }
+  },
+  "parent": "advancements_plus:root"
 }

@@ -1,15 +1,16 @@
 {
   "display": {
     "title": {
-      "text": "Tree Hugger"
+      "text": "There's more?"
     },
     "description": {
-      "text": "Punch a tree to collect your first wood block."
+      "text": "A little bit of everything"
     },
     "icon": {
       "id": "minecraft:oak_log"
     },
     "frame": "task",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
