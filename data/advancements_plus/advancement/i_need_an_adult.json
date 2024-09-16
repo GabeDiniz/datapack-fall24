@@ -1,0 +1,33 @@
+{
+  "display": {
+    "title": {
+      "text": "I Need an Adult!"
+    },
+    "description": {
+      "text": "Get hit by a baby zombie."
+    },
+    "icon": {
+      "id": "minecraft:zombie_spawn_egg"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "baby_zombie_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:zombie",
+            "nbt": "{IsBaby:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "advancements_plus:i_need_an_adult"
+  }
+}

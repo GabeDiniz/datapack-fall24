@@ -16,13 +16,7 @@
   },
   "criteria": {
     "survive_low_health": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "player": {
-          "type": "minecraft:player",
-          "nbt": "{Health:1.0f}"
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
