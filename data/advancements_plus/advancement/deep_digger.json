@@ -18,8 +18,14 @@
     "reach_bedrock": {
       "trigger": "minecraft:location",
       "conditions": {
-        "block": {
-          "blocks": ["minecraft:bedrock"]
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -60
+              }
+            }
+          }
         }
       }
     }
