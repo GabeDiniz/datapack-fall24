@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "text": "Potion Master"
+    },
+    "description": {
+      "text": "Brew the 10 different beneficial potions."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "potion_1": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:swiftness"
+      }
+    },
+    "potion_2": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strength"
+      }
+    },
+    "potion_3": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:fire_resistance"
+      }
+    },
+    "potion_4": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:healing"
+      }
+    },
+    "potion_5": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:regeneration"
+      }
+    },
+    "potion_6": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:night_vision"
+      }
+    },
+    "potion_7": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:invisibility"
+      }
+    },
+    "potion_8": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:leaping"
+      }
+    },
+    "potion_9": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:slow_falling"
+      }
+    },
+    "potion_10": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:water_breathing"
+      }
+    }
+  },
+  "requirements": [
+    ["potion_1"],
+    ["potion_2"],
+    ["potion_3"],
+    ["potion_4"],
+    ["potion_5"],
+    ["potion_6"],
+    ["potion_7"],
+    ["potion_8"],
+    ["potion_9"],
+    ["potion_10"]
+  ],
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "advancements_plus:root"
+}
