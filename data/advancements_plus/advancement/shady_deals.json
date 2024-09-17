@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "text": "Shady Deals"
+    },
+    "description": {
+      "text": "Make a trade with a Wandering Trader."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trade_wandering_trader": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    }
+  },
+  "requirements": [["trade_wandering_trader"]],
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "advancements_plus:root"
+}
