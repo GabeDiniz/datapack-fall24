@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_carpet"
+    },
+    "title": { "translate": "Deal's Off!" },
+    "description": {
+      "color": "green",
+      "translate": "Get spat at by one of the Trader Llamas"
+    },
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "llama_hurt_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:trader_llama"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2000
+  },
+  "parent": "advancements_plus:root"
+}
