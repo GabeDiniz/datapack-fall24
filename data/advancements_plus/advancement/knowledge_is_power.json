@@ -1,0 +1,31 @@
+{
+  "display": {
+    "title": {
+      "text": "Knowledge is Power"
+    },
+    "description": {
+      "text": "Trade for an Enchanted Book"
+    },
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:enchanted_book"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "advancements_plus:root"
+}
