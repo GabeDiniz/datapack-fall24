@@ -1,5 +1,5 @@
 # Description
-Our Fall-2024 server datapack!
+Our Fall-2024 server datapack! This datapack has custom commands, sets up UHC mode automatically, and has numerous new advancements.
 
 # Specifications
 ```
@@ -11,4 +11,6 @@ Datapack Format: 48
 ```
 # In Minecraft you can run:
 /function uhc:on    # turn on UHC mode
+/function tp:sethome   # sets home
+/function tp:home   # teleports user home
 ```
