@@ -4,7 +4,7 @@
       "id": "minecraft:trident"
     },
     "title": {
-      "text": "Lightning Conductor"
+      "text": "I am THOR"
     },
     "description": {
       "text": "Channel lightning through a trident during a storm."
@@ -20,7 +20,7 @@
     }
   },
   "rewards": {
-    "experience": 2000
+    "experience": 150
   },
   "parent": "advancements_plus:root"
 }

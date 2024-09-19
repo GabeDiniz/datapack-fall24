@@ -30,7 +30,7 @@
     }
   },
   "rewards": {
-    "function": "advancements_plus:fisherman_reward"
+    "experience": 50
   },
   "parent": "advancements_plus:root"
 }

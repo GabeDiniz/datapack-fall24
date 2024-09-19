@@ -1,2 +1,2 @@
-give @s minecraft:rotten_flesh 64
-tellraw @a {"text":"HELP!", "color":"red", "bold":true}
+effect give @s speed 10 1
+tellraw @a [{"selector": "@p"}, ": HELP!!!"]

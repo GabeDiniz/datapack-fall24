@@ -25,7 +25,7 @@
     }
   },
   "rewards": {
-    "experience": 1000
+    "experience": 100
   },
   "parent": "advancements_plus:root"
 }
