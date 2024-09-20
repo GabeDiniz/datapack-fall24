@@ -4,7 +4,7 @@
       "text": "Feather Fall"
     },
     "description": {
-      "text": "Fall from a height of at least 10 blocks and survive."
+      "text": "Fall from a height of at least 20 blocks and survive."
     },
     "icon": {
       "id": "minecraft:leather_boots"
@@ -20,7 +20,7 @@
       "conditions": {
         "distance": {
           "absolute": {
-            "min": 10
+            "min": 20
           }
         }
       }

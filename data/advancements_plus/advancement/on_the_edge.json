@@ -22,5 +22,5 @@
   "rewards": {
     "function": "advancements_plus:on_the_edge_reward"
   },
-  "parent": "advancements_plus:root"
+  "parent": "advancements_plus:i_need_an_adult"
 }

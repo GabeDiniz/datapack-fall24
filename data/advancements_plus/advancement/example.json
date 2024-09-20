@@ -15,19 +15,19 @@
     "hidden": false
   },
   "criteria": {
-    "kill_snow_golem": {
+    "kill_pufferfish": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:snow_golem"
+          "type": "minecraft:pufferfish"
         }
       }
     }
   },
-  "requirements": [["kill_snow_golem"]],
+  "requirements": [["kill_pufferfish"]],
   "rewards": {
-    "function": "rewards:reward_trade",
-    "loot": ["minecraft:entities/ghast"]
+    "experience": 250,
+    "function": "advancements_plus:example_reward"
   },
   "parent": "advancements_plus:root"
 }

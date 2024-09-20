@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 100
   },
-  "parent": "advancements_plus:root"
+  "parent": "advancements_plus:feather_fall"
 }
