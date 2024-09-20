@@ -45,7 +45,8 @@
     }
   },
   "rewards": {
-    "experience": 1000
+    "experience": 300,
+    "function": "advancements_plus:you_should_kiss_reward"
   },
   "parent": "advancements_plus:root"
 }

@@ -26,7 +26,7 @@
   },
   "requirements": [["trade_wandering_trader"]],
   "rewards": {
-    "experience": 5000
+    "experience": 80
   },
   "parent": "advancements_plus:root"
 }

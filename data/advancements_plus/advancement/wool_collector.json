@@ -177,7 +177,7 @@
     }
   },
   "rewards": {
-    "function": "advancements_plus:wool_collector_reward"
+    "experience": 200
   },
   "parent": "advancements_plus:root"
 }

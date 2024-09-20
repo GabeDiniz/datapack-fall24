@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "advancements_plus:root_reward"
+    "experience": 5
   }
 }

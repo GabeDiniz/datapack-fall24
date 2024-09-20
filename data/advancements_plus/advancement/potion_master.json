@@ -89,7 +89,7 @@
     ["potion_10"]
   ],
   "rewards": {
-    "experience": 10000
+    "experience": 400
   },
   "parent": "advancements_plus:root"
 }
