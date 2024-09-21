@@ -5,6 +5,7 @@ gamerule naturalRegeneration false
 
 # Setup Death counter (to be tested)
 scoreboard objectives add deaths deathCount
+scoreboard players set @a deaths 0
 scoreboard objectives add hearts health
 scoreboard objectives setdisplay sidebar deaths
 scoreboard objectives setdisplay list hearts
