@@ -15,6 +15,7 @@ scoreboard objectives setdisplay list hearts
 scoreboard objectives add Timer dummy
 # Create a scoreboard to manage the toggle between Health and Death Counter
 scoreboard objectives add Toggle dummy
+scoreboard players set @a Toggle 0
 
 # Log message
-tellraw @a {"text": "[Datapack] UHC turned on", "color": "#ff7171"}
+tellraw @a {"text": "[Datapack] UHC mode turned on", "color": "#ff7171"}
