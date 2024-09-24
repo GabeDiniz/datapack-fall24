@@ -48,5 +48,5 @@
     "experience": 300,
     "function": "advancements_plus:you_should_kiss_reward"
   },
-  "parent": "advancements_plus:knowledge_is_power"
+  "parent": "advancements_plus:root"
 }

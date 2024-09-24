@@ -28,5 +28,5 @@
   "rewards": {
     "experience": 100
   },
-  "parent": "advancements_plus:knowledge_is_power"
+  "parent": "advancements_plus:root"
 }
