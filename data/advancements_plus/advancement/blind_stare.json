@@ -1,0 +1,45 @@
+{
+  "display": {
+    "title": {
+      "text": "Blind Stare"
+    },
+    "description": {
+      "text": "Look at a Warden with a Spyglass"
+    },
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spyglass_at_warden": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:warden"
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": ["minecraft:spyglass"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "advancements_plus:deep_digger"
+}
