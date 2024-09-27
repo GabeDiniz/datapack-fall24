@@ -18,61 +18,61 @@
     "potion_1": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:swiftness"
+        "potion": "minecraft:strong_swiftness"
       }
     },
     "potion_2": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:strength"
+        "potion": "minecraft:strong_strength"
       }
     },
     "potion_3": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:fire_resistance"
+        "potion": "minecraft:long_fire_resistance"
       }
     },
     "potion_4": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:healing"
+        "potion": "minecraft:strong_healing"
       }
     },
     "potion_5": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:regeneration"
+        "potion": "minecraft:strong_regeneration"
       }
     },
     "potion_6": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:night_vision"
+        "potion": "minecraft:long_night_vision"
       }
     },
     "potion_7": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:invisibility"
+        "potion": "minecraft:long_invisibility"
       }
     },
     "potion_8": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:leaping"
+        "potion": "minecraft:strong_leaping"
       }
     },
     "potion_9": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:slow_falling"
+        "potion": "minecraft:long_slow_falling"
       }
     },
     "potion_10": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
-        "potion": "minecraft:water_breathing"
+        "potion": "minecraft:long_water_breathing"
       }
     }
   },
