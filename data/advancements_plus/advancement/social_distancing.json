@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": {
+      "text": "Social Distancing"
+    },
+    "description": {
+      "text": "Trade with a villager from at least 6 blocks away."
+    },
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "distant_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager"
+        },
+        "player": {
+          "distance": {
+            "horizontal": {
+              "min": 6
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "advancements_plus:root"
+}
