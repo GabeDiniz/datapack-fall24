@@ -19,9 +19,7 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "type": "minecraft:villager"
-        },
-        "player": {
+          "type": "minecraft:villager",
           "distance": {
             "horizontal": {
               "min": 6

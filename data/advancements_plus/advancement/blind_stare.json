@@ -7,7 +7,7 @@
       "text": "Look at a Warden with a Spyglass"
     },
     "icon": {
-      "id": "minecraft:bedrock"
+      "id": "minecraft:spyglass"
     },
     "frame": "goal",
     "show_toast": true,
